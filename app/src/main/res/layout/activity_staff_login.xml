@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaffLoginActivity">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@id/tecLogoStaffLoginPage"
+        android:src="@mipmap/tec_logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tecLogoStaffLoginPage"
+        android:hint="Staff Username "
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:id="@id/staffIdInput"
+        android:layout_marginRight="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/staffIdInput"
+        android:id="@id/staffPasswordInput"
+        android:hint="Password"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@id/staffLoginButton"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/staffPasswordInput"
+        android:layout_centerHorizontal="true"
+        android:background="#70a1ff"
+        android:textColor="#fff"
+        />
+</RelativeLayout>
